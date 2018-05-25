@@ -30,6 +30,8 @@ PostList.propTypes = {
     cuid: PropTypes.string.isRequired,
   })).isRequired,
   handleDeletePost: PropTypes.func.isRequired,
+  handleThumbDownPost: PropTypes.func.isRequired,
+  handleThumbUpPost: PropTypes.func.isRequired,
 };
 
 export default PostList;

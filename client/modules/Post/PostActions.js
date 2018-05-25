@@ -86,6 +86,7 @@ export function thumbUpPost(cuid, post) {
   return {
     type: THUMB_UP_POST,
     cuid,
+    post,
   };
 }
 

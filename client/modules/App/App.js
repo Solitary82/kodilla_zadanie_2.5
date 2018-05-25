@@ -12,7 +12,6 @@ import Footer from './components/Footer/Footer';
 
 // Import Actions
 import { toggleAddPost } from './AppActions';
-import { toggleEditPost } from './AppActions';
 import { switchLanguage } from '../../modules/Intl/IntlActions';
 
 export class App extends Component {
@@ -27,10 +26,6 @@ export class App extends Component {
 
   toggleAddPostSection = () => {
     this.props.dispatch(toggleAddPost());
-  };
-
-  toggleEditPostSection = () => {
-    this.props.dispatch(toggleEditPost());
   };
 
   render() {
